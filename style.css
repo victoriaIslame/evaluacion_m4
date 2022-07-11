@@ -1,0 +1,84 @@
+body { background-color: rgb(36, 36, 128);
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1 {
+    color:white
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}   
+
+.boton-agregar{
+    width: 50px;
+    height:50px;
+    margin: 5px;
+    border: none;
+    border-radius:10px;
+    background-color: rgb(255, 6, 46);
+    color: white;   
+}
+
+.boton-agregar:hover { opacity: 0.9;
+
+}
+
+.item-input{
+    width:  400px;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom:0px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid, 2px, white;
+    border-radius: 10px;
+    font-size: 18px, white;
+    background: none;
+    outline: none;   
+}
+
+.item {
+    margin-bottom:10px;
+}
+
+.botonEditar{
+    margin: 0px 5px 0px 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem; 
+    font-family: sans-serif;
+  }
+  .botonRemover {
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+  }
+  
+  .new-div input{
+    margin-bottom: 10px;
+    height: 50px;
+    border: solid white 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    background: none;
+  }
